@@ -1,0 +1,13 @@
+div{
+    background-color: antiquewhite;
+}
+ul{
+    background-color: aqua;
+    list-style: none;
+}
+li{
+    position: relative;
+    background-color: bisque;
+    margin: auto;
+    display: inline-block;
+}
