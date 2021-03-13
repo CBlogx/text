@@ -17,7 +17,7 @@ function shareTo(types) {
     }
 //     console.log(keywords);
 //     console.log(description)
-    console.log(imageUrl)
+  console.log(imageUrl)
 //     //qq空间接口的传参
 //     if(types=='zone'){
 //         alert("1");
