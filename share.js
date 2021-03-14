@@ -13,13 +13,9 @@ function shareTo(types) {
     title=document.title
     url=window.location.href
     //qq空间接口的传参
-    if(types=='zone'){
-            window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+url+'&sharesource=qzone&title='+title+'&desc='+title+'&pics='+imageUrl);//+'&summary='+description);
-    }
+    if(types=='zone'){window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+url+'&sharesource=qzone&title='+title+'&desc='+title+'&pics='+imageUrl);//+'&summary='+description);}
     // 新浪微博接口的传参
-    if (types == 'sina') {
-            window.open('http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title);// + '&pic=' + imageUrl + '&appkey=2706825840');
-    }
+    if (types == 'sina') {window.open('http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title);
     // qq好友接口的传参
     if (types == 'qq') {
         // qqurl="http://connect.qq.com/widget/shareqq/index.html?url="+url;
