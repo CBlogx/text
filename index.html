@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>国家数据</title>
+    <title>社交分享小插件</title>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="share.js"></script>
+    <script>
+      $(document).ready(function(){
+        show();
+      });
+    </script>
     <link
       href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -13,15 +18,14 @@
     <style>
       * {
         margin: 0% auto;
-        
       }
     </style>
   </head>
 
   <body>
     <p>社交分享插件（暂不支持定制）</p>
-    <div class="share_1">
-        <ol class="share_1_ol">
+    <div class="slide">
+        <ol class="slide_ol">
             <li>1.</li>
             <li onclick="shareTo('qq')"><img src="Pic/qq.png" width="49" /></li>
             <li onclick="shareTo('zone')"><img src="Pic/qzone.png" width="49" /></li>
@@ -32,15 +36,28 @@
         
     
     <div class="number-2">2.</div>
-    <div class="dropdown" style="float:left;">
-            <div class="dropdown_img"><img src="Pic/share.png" class="dropbtn" width="49"></img><div class="dropdown-content_span"><span>请将鼠标移至图标上</span></div></div>
-            <div class="dropdown-content" style="left:0;">
-            <div class="dropdown-content_a"><div style="text-align: center; font-weight: bolder;"><span>分享</span></div></div>
-            <div class="dropdown-content_a"><div class="dropdown-content_img"><img onclick="shareTo('qq')" src="Pic/qq.png" width="49" /></div><div class="dropdown-content_span"><span>QQ好友</span></div> </div>
-            <div class="dropdown-content_a"><div class="dropdown-content_img"><img onclick="shareTo('zone')" src="Pic/qzone.png" width="49" /></div><div class="dropdown-content_span"><span>QQ空间</span></div></div>
-            <div class="dropdown-content_a"><div class="dropdown-content_img"><img onclick="shareTo('sina')" src="Pic/sina.png" width="49" /></div><div class="dropdown-content_span"><span>新浪微博</span></div></div>
-            <div class="dropdown-content_a"><div class="dropdown-content_img"><img onclick="shareTo('wechat')" src="Pic/wechat.png" width="49" /></div><div class="dropdown-content_span"><span>微信</span></div></div>
+    <div class="drop" style="float:left;">
+            <div class="drop_img"><img src="Pic/share.png" class="dropbtn" width="49"></img><div class="drop_con_span"><span>请移至图标上</span></div></div>
+            <div class="drop_con" style="left:0;">
+                <div class="drop_con_a"><div style="text-align: center; font-weight: bolder;"><span>分享</span></div></div>
+                <div class="drop_con_a"><div class="drop_con_img"><img onclick="shareTo('qq')" src="Pic/qq.png" width="49" /></div><div class="drop_con_span"><span>QQ好友</span></div> </div>
+                <div class="drop_con_a"><div class="drop_con_img"><img onclick="shareTo('zone')" src="Pic/qzone.png" width="49" /></div><div class="drop_con_span"><span>QQ空间</span></div></div>
+                <div class="drop_con_a"><div class="drop_con_img"><img onclick="shareTo('sina')" src="Pic/sina.png" width="49" /></div><div class="drop_con_span"><span>新浪微博</span></div></div>
+                <div class="drop_con_a"><div class="drop_con_img"><img onclick="shareTo('wechat')" src="Pic/wechat.png" width="49" /></div><div class="drop_con_span"><span>微信</span></div></div>
             </div>
-        </div>
+    </div>
+
+    <div class="number-3">3.</div>
+    <div class="cshow" style="float: left;">
+        <div class="cshow_img"><img id="cshow_btn" class="cshow_btn" src="Pic/share.png" width="49"></img></div>
+    </div>
+    <div id="cshow_con" class="cshow_con" style="left: 0;">
+      <div id="cshow_cls" class="cshow_cls"><i class="fa fa-times " aria-hidden="true"></i></div>
+      <div class="cshow_con_a"><div style="text-align: center; font-weight: bolder;"><span>分享</span></div></div>
+      <div class="cshow_con_a"><div class="cshow_con_img"><img onclick="shareTo('qq')" src="Pic/qq.png" width="49" /></div><div class="cshow_con_span"><span>QQ好友</span></div> </div>
+      <div class="cshow_con_a"><div class="cshow_con_img"><img onclick="shareTo('zone')" src="Pic/qzone.png" width="49" /></div><div class="cshow_con_span"><span>QQ空间</span></div></div>
+      <div class="cshow_con_a"><div class="cshow_con_img"><img onclick="shareTo('sina')" src="Pic/sina.png" width="49" /></div><div class="cshow_con_span"><span>新浪微博</span></div></div>
+      <div class="cshow_con_a"><div class="cshow_con_img"><img onclick="shareTo('wechat')" src="Pic/wechat.png" width="49" /></div><div class="cshow_con_span"><span>微信</span></div></div>
+    </div>
   </body>
 </html>

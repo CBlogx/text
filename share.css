@@ -1,96 +1,146 @@
-p{
-    font-size: 20px;
-    background-color: lightskyblue;
+p {
+  font-size: 20px;
+  background-color: lightskyblue;
 }
-.number-2{
-    position: absolute;
-    font-size: 36px;
-    margin-top: 80px;
-    margin-left: 65px;
+.number-2 {
+  position: absolute;
+  font-size: 36px;
+  margin-top: 80px;
+  margin-left: 65px;
 }
-.share_1{
-    position: absolute;
-    width: 100%;
+.number-3 {
+  position: absolute;
+  font-size: 36px;
+  margin-top: 140px;
+  margin-left: 65px;
 }
-.share_1 ol{
-    float: left;
-    list-style: none;
-    margin-top: 10px;
+.slide {
+  position: absolute;
+  width: 100%;
 }
-.share_1 li{
-    display: inline-block;
-    padding: 5px 5px;
-    float: left;
-    cursor: pointer;
-    margin-left: 20px;
-    font-size: 36px;
+.slide ol {
+  float: left;
+  list-style: none;
+  margin-top: 10px;
 }
-.share_1 img{
-    display: block;
-    background-color:antiquewhite
+.slide li {
+  display: inline-block;
+  padding: 5px 5px;
+  float: left;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 36px;
 }
+.slide img {
+  display: block;
+  /* background-color:antiquewhite */
+}
+
 .dropbtn {
-    border: 1px solid;
-    border-color: black;
-    border-radius: 10px;
-    background-color: red;
-    font-size: 16px;
-    cursor: pointer;
+  border: 1px solid;
+  border-radius: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.drop {
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 80px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+}
+.drop_img {
+  height: 51px;
+  display: block;
+}
+.drop_con {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  z-index: 3;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.drop_con_a {
+  border-top: 1px solid;
+  border-top-color: lightgray;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+.drop_con_img {
+  display: inline-block;
+}
+.drop_con_span {
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  line-height: 60px;
+  margin-left: 5px;
+}
+.drop_con_a:hover {
+  background-color: #f1f1f1;
 }
 
-.dropdown {
-    position: absolute;
-    margin-left: 125px;
-    margin-top: 80px;
-    width: 200px;
-    position: relative;
-    display: inline-block;
-}
-.dropdown_img{
-    height: 51px;
-    display: block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.drop:hover .drop_con {
+  display: block;
 }
 
-.dropdown-content_a {
-   
-    border-top: 1px solid;
-    border-top-color:lightgray;
-    padding: 5px 5px;
-    text-decoration: none;
-    display: block;
-    font-size: 20px;
+.drop:hover .dropbtn {
+  background-color: lightgrey;
 }
-.dropdown-content_img{
-    display: inline-block;
+
+.cshow {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 125px;
 }
-.dropdown-content_span{
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    line-height: 60px;
-    margin-left: 5px;
+.cshow_img {
+  display: block;
+  height: 51px;
 }
-.dropdown-content_a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: lightblue;}
-
-
-
-
-
-
-
-
-
-
-
+.cshow_btn {
+  border: 1px solid;
+  border-radius: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cshow_con {
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-left: 40%;
+  top: 30%;
+  min-width: 300px;
+  z-index: 2;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.cshow_cls {
+  position: absolute;
+  margin-left: 270px;
+  font-size: 28px;
+}
+.cshow_con_a {
+  border-top: 1px solid;
+  border-top-color: lightgray;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+.cshow_con_img {
+  display: inline-block;
+}
+.cshow_con_span {
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  line-height: 60px;
+  margin-left: 5px;
+}
+.cshow_con_a:hover {
+  background-color: #f1f1f1;
+}
