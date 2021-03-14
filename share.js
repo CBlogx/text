@@ -9,23 +9,9 @@ function show(){
 }
 
 function shareTo(types) {
-    var title,url,imageUrl ,description, keywords;
+    var title,url,imageUrl;
     title=document.title
     url=window.location.href
-    console.log(title)
-//    alert(url)
-    //获取文章标题
-//     keywords = document.querySelector('meta[name="keywords"]').getAttribute('content');
-//     description = document.querySelector('meta[name="description"]').getAttribute('content');
-
-    // if(typeof imageUrl == 'undefined'){
-    //     imageUrl = 'https://'+window.location.host+'/favicon.ico';
-    // } else {
-    //     imageUrl = imageUrl.src;
-    // }
-//     console.log(keywords);
-//     console.log(description)
-//     console.log(imageUrl)
     //qq空间接口的传参
     if(types=='zone'){
             window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+url+'&sharesource=qzone&title='+title+'&desc='+title+'&pics='+imageUrl);//+'&summary='+description);
@@ -37,12 +23,9 @@ function shareTo(types) {
     // qq好友接口的传参
     if (types == 'qq') {
             window.open('http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&sharesource=qzone&title=' + title);// + '&pics=' + imageUrl + '&summary=' + description + '&d描分享
-    // if (types == 'wexin') {
-    //     console.log("1")
-    //         window.open('https://zixuephp.net/inc/qrcode_img.php?url=' + url);
-    // }
+    
+    }        
     if(types=='wechat'){
         window.open('https://zixuephp.net/inc/qrcode_img.php')
     }
-}
 }
