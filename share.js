@@ -5,7 +5,7 @@ function shareTo(types) {
     title=document.title
     url=window.location.href
     console.log(title)
-    console.log(url)
+    alert(url)
     //获取文章标题
 //     keywords = document.querySelector('meta[name="keywords"]').getAttribute('content');
 //     description = document.querySelector('meta[name="description"]').getAttribute('content');
