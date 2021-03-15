@@ -14,16 +14,23 @@ p {
   margin-top: 140px;
   margin-left: 65px;
 }
+.number-1{
+  position: absolute;
+  font-size: 36px;
+  margin-top: 16px;
+  margin-left: 65px;
+}
+
 .slide {
   position: absolute;
   width: 100%;
 }
-.slide ol {
+.slide_ol {
   float: left;
   list-style: none;
-  margin-top: 10px;
+  
 }
-.slide li {
+.slide_ol li {
   display: inline-block;
   padding: 5px 5px;
   float: left;
@@ -95,8 +102,7 @@ p {
 
 .cshow {
   position: absolute;
-  margin-top: 140px;
-  margin-left: 125px;
+  float: left;
 }
 .cshow_img {
   display: block;

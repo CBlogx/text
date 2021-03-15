@@ -59,3 +59,10 @@ function set_qr(id,url,stat){
     $(i).css({display:"block",position:"absolute",right:"0",});
     $(i).click(function(){$(div).css({display:"none"})});
 }
+
+function setmargin(id,top,left){
+    $("#"+id).css({
+        "margin-top":top+"px",
+        "margin-left":left+"px"
+    });
+}

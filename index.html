@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>社交分享小插件</title>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="share.css" />
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="share.js"></script>
     <script>
       $(document).ready(function(){
         show();
+        setmargin("slide",10,60);
+        setmargin("drop",80,125);
+        setmargin("cshow",140,125)
       });
     </script>
-    <link
-      href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="share.css" />
     <style>
       * {
         margin: 0% auto;
@@ -24,9 +24,10 @@
 
   <body>
     <p>社交分享插件（暂不支持定制）</p>
-    <div class="slide">
+    <div class="number-1">1.</div>
+    <div id="slide" class="slide">
         <ol class="slide_ol">
-            <li>1.</li>
+            
             <li onclick="shareTo('qq')"><img src="Pic/qq.png" width="49" /></li>
             <li onclick="shareTo('zone')"><img src="Pic/qzone.png" width="49" /></li>
             <li onclick="shareTo('sina')"><img src="Pic/sina.png" width="49" /></li>
@@ -36,19 +37,20 @@
         
     
     <div class="number-2">2.</div>
-    <div class="drop" style="float:left;">
+    <div id="drop"  class="drop" style="float:left;">
             <div class="drop_img"><img src="Pic/share.png" class="dropbtn" width="49"></img><div class="drop_con_span"><span>请移至图标上</span></div></div>
             <div class="drop_con" style="left:0;">
                 <div class="drop_con_a"><div style="text-align: center; font-weight: bolder;"><span>分享</span></div></div>
                 <div class="drop_con_a" onclick="shareTo('qq')" ><div class="drop_con_img"><img src="Pic/qq.png" width="49" /></div><div class="drop_con_span"><span>QQ好友</span></div> </div>
-                <div class="drop_con_a" onclick="shareTo('zone')" ><div class="drop_con_img"><img src="Pic/qzone.png" width="49" /></div><div class="drop_con_span"><span>QQ空间</span></div></div>
+                <div class="drop_con_a" onclick="shareTo('zone')"><div class="drop_con_img"><img src="Pic/qzone.png" width="49" /></div><div class="drop_con_span"><span>QQ空间</span></div></div>
                 <div class="drop_con_a" onclick="shareTo('sina')" ><div class="drop_con_img"><img src="Pic/sina.png" width="49" /></div><div class="drop_con_span"><span>新浪微博</span></div></div>
                 <div class="drop_con_a" onclick="shareTo('wechat')" ><div class="drop_con_img"><img src="Pic/wechat.png" width="49" /></div><div class="drop_con_span"><span>微信</span></div></div>
             </div>
     </div>
 
+    
     <div class="number-3">3.</div>
-    <div class="cshow" style="float: left;">
+      <div id="cshow" class="cshow">
         <div class="cshow_img"><img id="cshow_btn" class="cshow_btn" src="Pic/share.png" width="49"></img></div>
     </div>
     <div id="cshow_con" class="cshow_con" style="left: 0;">
@@ -59,7 +61,6 @@
       <div class="cshow_con_a" onclick="shareTo('sina')" ><div class="cshow_con_img"><img src="Pic/sina.png" width="49" /></div><div class="cshow_con_span"><span>新浪微博</span></div></div>
       <div class="cshow_con_a" onclick="shareTo('wechat')" ><div class="cshow_con_img"><img src="Pic/wechat.png" width="49" /></div><div class="cshow_con_span"><span>微信</span></div></div>
     </div>
-
     
   </body>
 </html>
