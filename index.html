@@ -10,9 +10,9 @@
     <script>
       $(document).ready(function(){
         show();
-        setmargin("slide",10,60);
-        setmargin("drop",80,125);
-        setmargin("cshow",140,125)
+        set_margin("line",10,60);
+        set_margin("drop",80,125);
+        set_margin("cshow",140,125);
       });
     </script>
     <style>
@@ -25,9 +25,8 @@
   <body>
     <p>社交分享插件（暂不支持定制）</p>
     <div class="number-1">1.</div>
-    <div id="slide" class="slide">
-        <ol class="slide_ol">
-            
+    <div id="line" class="line">
+        <ol class="line_ol">
             <li onclick="shareTo('qq')"><img src="Pic/qq.png" width="49" /></li>
             <li onclick="shareTo('zone')"><img src="Pic/qzone.png" width="49" /></li>
             <li onclick="shareTo('sina')"><img src="Pic/sina.png" width="49" /></li>

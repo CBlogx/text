@@ -60,7 +60,7 @@ function set_qr(id,url,stat){
     $(i).click(function(){$(div).css({display:"none"})});
 }
 
-function setmargin(id,top,left){
+function set_margin(id,top,left){
     $("#"+id).css({
         "margin-top":top+"px",
         "margin-left":left+"px"
