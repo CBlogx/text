@@ -37,7 +37,7 @@
   }
 
   .regform_show .regform_step .step_item .step_number.number_1 {
-    background-position: 0 0px;
+    background-position: 0 -35px;
   }
   .regform_show .regform_step .step_item .step_number.number_1.done {
     background-position: 0 -35px;
