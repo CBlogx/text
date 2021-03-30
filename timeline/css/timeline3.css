@@ -1,0 +1,94 @@
+.regform_show_vertical {
+  position: absolute;
+  margin: 0px 0rem;
+  padding-bottom: 1rem;
+}
+.regform_show_vertical .regform_step {
+  display: block;
+  margin: 10px auto;
+  padding-top: 10px;
+}
+.regform_show_vertical .regform_step .step_item {
+  display: block;
+  width: 48px;
+  height: 160px;
+  margin-left: -40px;
+}
+.regform_show_vertical .regform_step .step_item .step_number {
+  display: block;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/regform_step.jpg");
+}
+.regform_show_vertical .regform_step .step_item .step_line {
+  display: block;
+  margin-left: 8px;
+  width: 32px;
+  height: 128px;
+  background-image: url("../images/step_line_1.jpg");
+  background-position: 32px -8px;
+}
+.regform_show_vertical .regform_step .step_item .step_line.done {
+  background-position: 0 -8px;
+}
+
+.regform_show_vertical .regform_step .step_item .step_number.number_1 {
+  background-position: 0 0px;
+}
+.regform_show_vertical .regform_step .step_item .step_number.number_1.done {
+  background-position: 0 -35px;
+}
+
+.regform_show_vertical .regform_step .step_item .step_number.number_2 {
+  background-position: -32px 0px;
+}
+.regform_show_vertical .regform_step .step_item .step_number.number_2.done {
+  background-position: -32px -35px;
+}
+
+.regform_show_vertical .regform_step .step_item .step_number.number_3 {
+  background-position: -64px 0;
+}
+.regform_show_vertical .regform_step .step_item .step_number.number_3.done {
+  background-position: -64px -35px;
+}
+
+.regform_show_vertical .regform_step .step_item .step_number.number_4 {
+  background-position: -96px 0;
+}
+
+.regform_show_vertical .regform_step .step_item .step_number.number_4.done {
+  background-position: -96px -35px;
+}
+.regform_show_vertical .step_text {
+  position: absolute;
+  padding: 0;
+  margin-top: -650px;
+  margin-left: 48px;
+  list-style: none;
+  display: block;
+}
+.regform_show_vertical .step_text li {
+  float: left;
+  width: 88px;
+  color: #999;
+  line-height: 14px;
+  margin-bottom: 55px;
+  height: 14px;
+}
+.regform_show_vertical .step_text li.done {
+  color: #ec4e1a;
+}
+.regform_show_vertical .step_text .text_1 {
+  margin-top: 10px;
+}
+.regform_show_vertical .step_text .text_2 {
+  margin-top: 88px;
+}
+.regform_show_vertical .step_text .text_3 {
+  margin-top: 88px;
+}
+.regform_show_vertical .step_text .text_4 {
+  margin-top: 88px;
+}

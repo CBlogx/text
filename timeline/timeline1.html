@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/timeline1.css" />
+  </head>
+  <body>
+    <div class="regform_show">
+      <ul class="regform_step">
+        <li class="step_item first">
+          <span class=""></span><a class="step_number number_1"></a>
+        </li>
+        <li class="step_item">
+          <span class="step_line"></span><a class="step_number number_2"></a>
+        </li>
+        <li class="step_item">
+          <span class="step_line"></span><a class="step_number number_3"></a>
+        </li>
+        <li class="step_item">
+          <span class="step_line"></span><a class="step_number number_4"></a>
+        </li>
+      </ul>
+
+      <ul class="step_text">
+        <li class="text_1">提交申请</li>
+        <li class="text_2">区县审核通过</li>
+        <li class="text_3">地市审核通过</li>
+        <li class="text_4">省博管办审核通过，申请成功</li>
+      </ul>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script>
+      $(".number_1").step("mouseover", 1);
+      $(".number_2").step("mouseover", 2);
+      $(".number_3").step("mouseover", 3);
+      $(".number_4").step("mouseover", 4);
+    </script>
+  </body>
+</html>

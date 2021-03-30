@@ -3,24 +3,7 @@ chrome.extension.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.action === "copy")
         {
-            // alert(typeof($("#addr").text()))
-            
             var data={"addr":"","title":"","content":""} 
-            // for(var key in data){
-            //     var kid=$("#"+key)
-            //     if(kid.val()!=""&&kid.val()!=kid.text())
-            //     {
-            //         console.log("keyname:"+key);
-            //         console.log("value:"+kid.val());
-            //         console.log("text:"+kid.text());
-            //         data[key]=kid.val()
-            //     }
-            //     else{
-            //         console.log("text:"+key);
-            //         data[key]=kid.text()
-            //     }
-            //     console.log(data[key]);
-            // }
             data["addr"]=$("#addr").val()
             data["title"]=$("#title").val()
             data["content"]=$("#content").text()  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/timeline2.js"></script>
+    <link rel="stylesheet" href="css/timeline1.css" />
+  </head>
+  <body>
+    <div class="regform_show">
+      <ul class="regform_step">
+        <li class="step_item">
+          <a class="step_number number_1"></a><span class="step_line"></span>
+        </li>
+        <li class="step_item">
+          <a class="step_number number_2"></a><span class="step_line"></span>
+        </li>
+        <li class="step_item">
+          <a class="step_number number_3"></a><span class="step_line"></span>
+        </li>
+        <li class="step_item">
+          <a class="step_number number_4"></a><span class=""></span>
+        </li>
+      </ul>
+
+      <ul class="step_text">
+        <li>提交申请</li>
+        <li>区县审核通过</li>
+        <li>地市审核通过</li>
+        <li>省博管办审核通过，申请成功</li>
+      </ul>
+    </div>
+    <div style="position: absolute; left: 50%; top: 30%">
+      <input id="inp" type="text" placeholder="请输入进度节点" />
+      <button id="btn" onclick="cc()">button</button>
+    </div>
+
+    <script>
+      $(".step_text").stepper({
+        current: 2,
+      });
+      function cc() {
+        var node = $("#inp").val();
+        $(".step_text").stepper({
+          current: node,
+        });
+      }
+    </script>
+  </body>
+</html>

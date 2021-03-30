@@ -1,0 +1,201 @@
+@media screen and (min-width: 840px) {
+  .regform_show {
+    margin: 0 4rem;
+    padding-bottom: 1rem;
+  }
+  .regform_show .regform_step {
+    list-style: none;
+    margin: 26px 0 0 10px;
+    padding: 0;
+    height: 32px;
+  }
+  .regform_show .regform_step .step_item {
+    float: left;
+    height: 32px;
+  }
+  .regform_show .regform_step .step_item .first {
+    height: 32px;
+  }
+  .regform_show .regform_step .step_item .step_number {
+    background-image: url("../images/regform_step.jpg");
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+  }
+
+  .regform_show .regform_step .step_item .step_line {
+    float: left;
+    display: block;
+    background-image: url("../images/step_line.jpg");
+    width: 182px;
+    height: 32px;
+    margin: 0 !important;
+  }
+  .regform_show .regform_step .step_item .step_line.done {
+    background-position: 0 -32px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_1 {
+    background-position: 0 0px;
+  }
+  .regform_show .regform_step .step_item .step_number.number_1.done {
+    background-position: 0 -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_2 {
+    background-position: -32px 0px;
+  }
+  .regform_show .regform_step .step_item .step_number.number_2.done {
+    background-position: -32px -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_3 {
+    background-position: -64px 0;
+  }
+  .regform_show .regform_step .step_item .step_number.number_3.done {
+    background-position: -64px -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_4 {
+    background-position: -96px 0;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_4.done {
+    background-position: -96px -35px;
+  }
+
+  .regform_show .step_text {
+    position: absolute;
+    margin: 11px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .regform_show .step_text li {
+    float: left;
+    width: 88px;
+    color: #999;
+    line-height: 14px;
+    margin-bottom: 55px;
+    height: 14px;
+  }
+  .regform_show .step_text li.done {
+    color: #ec4e1a;
+  }
+  .regform_show .step_text .text_1 {
+    float: left;
+    width: 76px;
+    color: #999;
+    line-height: 14px;
+    margin-bottom: 15px;
+    height: 14px;
+  }
+  .regform_show .step_text .text_2 {
+    margin-left: 150px;
+    width: 120px;
+  }
+  .regform_show .step_text .text_3 {
+    margin-left: 88px;
+    width: 120px;
+  }
+  .regform_show .step_text .text_4 {
+    margin-left: 88px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .regform_show {
+    position: absolute;
+    margin: 0px 0rem;
+    padding-bottom: 1rem;
+  }
+  .regform_show .regform_step {
+    display: block;
+    margin: 10px auto;
+    padding-top: 10px;
+  }
+  .regform_show .regform_step .step_item {
+    display: block;
+    width: 48px;
+    height: 160px;
+    margin-left: -40px;
+  }
+  .regform_show .regform_step .step_item .step_number {
+    display: block;
+    margin: 0 auto;
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/regform_step.jpg");
+  }
+  .regform_show .regform_step .step_item .step_line {
+    display: block;
+    margin-left: 8px;
+    width: 32px;
+    height: 128px;
+    background-image: url("../images/step_line_1.jpg");
+    background-position: 32px -8px;
+  }
+  .regform_show .regform_step .step_item .step_line.done {
+    background-position: 0 -8px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_1 {
+    background-position: 0 0px;
+  }
+  .regform_show .regform_step .step_item .step_number.number_1.done {
+    background-position: 0 -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_2 {
+    background-position: -32px 0px;
+  }
+  .regform_show .regform_step .step_item .step_number.number_2.done {
+    background-position: -32px -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_3 {
+    background-position: -64px 0;
+  }
+  .regform_show .regform_step .step_item .step_number.number_3.done {
+    background-position: -64px -35px;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_4 {
+    background-position: -96px 0;
+  }
+
+  .regform_show .regform_step .step_item .step_number.number_4.done {
+    background-position: -96px -35px;
+  }
+  .regform_show .step_text {
+    position: absolute;
+    padding: 0;
+    margin-top: -650px;
+    margin-left: 48px;
+    list-style: none;
+    display: block;
+  }
+  .regform_show .step_text li {
+    float: left;
+    width: 88px;
+    color: #999;
+    line-height: 14px;
+    margin-bottom: 55px;
+    height: 14px;
+  }
+  .regform_show .step_text li.done {
+    color: #ec4e1a;
+  }
+  .regform_show .step_text .text_1 {
+    margin-top: 10px;
+  }
+  .regform_show .step_text .text_2 {
+    margin-top: 88px;
+  }
+  .regform_show .step_text .text_3 {
+    margin-top: 88px;
+  }
+  .regform_show .step_text .text_4 {
+    margin-top: 88px;
+  }
+}
