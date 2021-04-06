@@ -1,0 +1,93 @@
+{
+  "id": "2462209",
+  "name": "广告浮窗",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12220118",
+      "name": "消息",
+      "font_class": "gentie",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13255214",
+      "name": "消 息",
+      "font_class": "xiaoxi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14436052",
+      "name": "消 息",
+      "font_class": "xiaoxi1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "17156990",
+      "name": "消 息",
+      "font_class": "xiaoxi2",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "17337161",
+      "name": "消 息",
+      "font_class": "xiaoxi3",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "17591362",
+      "name": "消息",
+      "font_class": "xiaoxi4",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "17847603",
+      "name": "消息",
+      "font_class": "xiaoxi5",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "18124019",
+      "name": "消 息 (1)",
+      "font_class": "xiaoxi11",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "18514465",
+      "name": "消息",
+      "font_class": "xiaoxi6",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "18961271",
+      "name": "消 息",
+      "font_class": "xiaoxi7",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "19696913",
+      "name": "消 息",
+      "font_class": "xiaoxi8",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "20322637",
+      "name": "消 息",
+      "font_class": "xiaoxi9",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}

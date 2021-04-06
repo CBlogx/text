@@ -1,0 +1,88 @@
+.floatingWindow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 10px;
+}
+.floatingWindow .floatingWindowA {
+  position: absolute;
+  display: block;
+  top: 40%;
+  right: 0;
+  transform: rotateY(180deg);
+}
+.floatingWindow .floatingWindowA:link {
+  text-decoration: none;
+  color: lightcoral;
+}
+.floatingWindow .floatingWindowA:visited {
+  text-decoration: none;
+  color: lightcoral;
+}
+
+.floatingWindow .advertisement {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-indent: 2em;
+  word-break: break-all;
+  top: 15%;
+  left: 18%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  display: none;
+}
+
+.floatingWindow .triangle {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 246px;
+  width: 0px;
+  height: 0px;
+  content: " ";
+  display: none;
+}
+
+.floatingWindow_a {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 10px;
+}
+.floatingWindow_a .floatingWindowA {
+  position: absolute;
+  display: block;
+  top: 40%;
+  left: 0;
+}
+.floatingWindow_a .floatingWindowA:link {
+  text-decoration: none;
+  color: lightcoral;
+}
+.floatingWindow_a .floatingWindowA:visited {
+  text-decoration: none;
+  color: lightcoral;
+}
+
+.floatingWindow_a .advertisement {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-indent: 2em;
+  word-break: break-all;
+  top: 15%;
+  right: 18%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  display: none;
+}
+
+.floatingWindow_a .triangle {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 246px;
+  width: 0px;
+  height: 0px;
+  content: " ";
+  display: none;
+}

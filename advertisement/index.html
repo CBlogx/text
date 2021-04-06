@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  </head>
+  <body>
+    <div id="floatingWindow" data-position="right">
+      <div id="advertisement" data-bkcolor="lavenderblush"></div>
+      <div class="triangle"></div>
+      <a id="mesg" target="_blank">
+        <span class="iconfont icon-xiaoxi4"></span>
+      </a>
+    </div>
+    <script src="./js/floatingWindow.js"></script>
+    <script>
+      $("#advertisement").content({
+        content:
+          "什么是淘宝硬广如淘宝首页焦点，通栏，关键的文字链啊。我的淘宝通栏，我要买的通栏，右侧Banner 。各个频道的焦点图，通栏等，还有旺旺上面各类广告位都称为硬广。KA客户，大卖家广告框架，100百万框架等就是指硬广广告，比较典型客户有优衣库，百分之一。安都，七格格吉祥，少女蝶，鞋神，小米户，飘飘龙，麦包包，还有其他大品牌等。",
+        href: "http://www.baidu.com/",
+      });
+      al;
+    </script>
+  </body>
+</html>
