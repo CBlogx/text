@@ -26,17 +26,17 @@
     } else if (fW.data("position") == "left") {
       fW.attr("class", "floatingWindow_a");
     }
+    mesg.attr("title", "查看更多请点击图标");
     mesg.on({
       mouseover: function () {
         clearInterval(id);
         id = null;
         $(".advertisement").css("display", "block");
-        $(".triangle").css("display", "block");
       },
       mouseout: function () {
         id = setInterval(frame, 15);
+
         $(".advertisement").css("display", "none");
-        $(".triangle").css("display", "none");
       },
     });
     mesg.attr("class", "floatingWindowA");
@@ -45,12 +45,15 @@
 
   $.fn.content = function (data) {
     var text = data.content;
+    // var more = "详情";
+    // more = more.link(data.href);
     var href = data.href;
     if (text != undefined) {
       if (text.length > 105) {
         text = text.substring(0, 104) + "......";
       }
       $(this).text(text);
+      // $(more).appendTo(this);
     }
     if (href != undefined) {
       document.querySelector("#mesg").href = href;
