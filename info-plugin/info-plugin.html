@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="wclassth=device-wclassth, initial-scale=1.0"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./js/info-plugin.js"></script>
+    <script>
+      $(function () {
+        $("#inpg-info").information({
+          title: "进站通知",
+          content: `./md/information.md`,
+          yes: "我愿意遵守以上条约，并为自己的行为担负任何的法律责任，自身出现的违法行为都与网站无关",
+          no: "我不愿意遵守上述条约中的内容，我选择离开网站，本网站的一切行为与我无关",
+          count: 4,
+        });
+      });
+    </script>
+  </body>
+</html>

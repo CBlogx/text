@@ -1,0 +1,120 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#info-plugin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 1);
+}
+.inpg-info {
+  background-color: #fff;
+  width: 1300px;
+  height: 650px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.inpg-banner {
+  width: 100%;
+  height: 12%;
+  text-align: center;
+  background-color: skyblue;
+}
+
+.inpg-banner span {
+  font: 2em 微软雅黑;
+  color: #004e9e;
+  line-height: 75px;
+}
+
+.inpg-content {
+  color: white;
+  overflow: auto;
+  height: 75%;
+}
+.inpg-content::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+/*定义滚动条轨道
+ 内阴影+圆角*/
+.inpg-content::-webkit-scrollbar-track {
+  height: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: whitesmoke;
+}
+/*定义滑块
+ 内阴影+圆角*/
+.inpg-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: lightslategrey;
+}
+
+.inpg-content p {
+  margin: 1.5%;
+  padding: 1.5%;
+  border: 0px;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-indent: 1rem;
+  color: #666;
+}
+
+.inpg-bottom {
+  width: 100%;
+  height: 13%;
+}
+
+.inpg-bottom-content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.inpg-bottom-count {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  line-height: 84.5px;
+}
+.inpg-bottom-choose:first-child {
+  background: #0655a4 url(../img/ico_hint_true.png) no-repeat 15px center;
+  color: #fff;
+}
+.inpg-bottom-choose:last-child {
+  background: lightgrey url(../img/ico_hint_close.png) no-repeat 15px center;
+  color: gray;
+}
+.inpg-bottom-choose {
+  width: 40%;
+  height: 90%;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 24px;
+  padding: 0px 3% 0px 6%;
+  transition: background-color 0.3s linear;
+}
+.inpg-bottom-choose:hover {
+  background-color: black;
+  color: #fff;
+  transition: background-color 0.3s linear;
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.sites {
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: -378px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 999;
+}
+.share-sites {
+  width: 25px;
+  height: 42px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: skyblue;
+  padding: 0;
+}
+.link {
+  /* display: none; */
+  transition: display 5s linear;
+  background-color: whitesmoke;
+}
