@@ -23,5 +23,5 @@ $(".share-sites").mouseover(function () {
 $(".sites").mouseleave(function () {
   setTimeout(function () {
     $(".sites").animate({ left: "-378px" });
-  }, 3000);
+  }, 0);
 });
