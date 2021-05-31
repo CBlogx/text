@@ -1,6 +1,411 @@
 {
-    "array":[
-        {"name":"Afghanistan","json":"AFG"},{"name":"Angola","json":"AGO"},{"name":"Albania","json":"ALB"},{"name":"United Arab Emirates","json":"ARE"},{"name":"Argentina","json":"ARG"},{"name":"Armenia","json":"ARM"},{"name":"Antarctica","json":"ATA"},{"name":"French Southern and Antarctic Lands","json":"ATF"},{"name":"Australia","json":"AUS"},{"name":"Austria","json":"AUT"},{"name":"Azerbaijan","json":"AZE"},{"name":"Burundi","json":"BDI"},{"name":"Belgium","json":"BEL"},{"name":"Benin","json":"BEN"},{"name":"Burkina Faso","json":"BFA"},{"name":"Bangladesh","json":"BGD"},{"name":"Bulgaria","json":"BGR"},{"name":"The Bahamas","json":"BHS"},{"name":"Bosnia and Herzegovina","json":"BIH"},{"name":"Belarus","json":"BLR"},{"name":"Belize","json":"BLZ"},{"name":"Bermuda","json":"BMU"},{"name":"Bolivia","json":"BOL"},{"name":"Brazil","json":"BRA"},{"name":"Brunei","json":"BRN"},{"name":"Bhutan","json":"BTN"},{"name":"Botswana","json":"BWA"},{"name":"Central African Republic","json":"CAF"},{"name":"Canada","json":"CAN"},{"name":"Switzerland","json":"CHE"},{"name":"Chile","json":"CHL"},{"name":"China","json":"CHN"},{"name":"Ivory Coast","json":"CIV"},{"name":"Cameroon","json":"CMR"},{"name":"Democratic Republic of the Congo","json":"COD"},{"name":"Republic of the Congo","json":"COG"},{"name":"Colombia","json":"COL"},{"name":"Costa Rica","json":"CRI"},{"name":"Cuba","json":"CUB"},{"name":"Northern Cyprus","json":"-99"},{"name":"Cyprus","json":"CYP"},{"name":"Czech Republic","json":"CZE"},{"name":"Germany","json":"DEU"},{"name":"Djibouti","json":"DJI"},{"name":"Denmark","json":"DNK"},{"name":"Dominican Republic","json":"DOM"},{"name":"Algeria","json":"DZA"},{"name":"Ecuador","json":"ECU"},{"name":"Egypt","json":"EGY"},{"name":"Eritrea","json":"ERI"},{"name":"Spain","json":"ESP"},{"name":"Estonia","json":"EST"},{"name":"Ethiopia","json":"ETH"},{"name":"Finland","json":"FIN"},{"name":"Fiji","json":"FJI"},{"name":"Falkland Islands","json":"FLK"},{"name":"France","json":"FRA"},{"name":"Gabon","json":"GAB"},{"name":"United Kingdom","json":"GBR"},{"name":"Georgia","json":"GEO"},{"name":"Ghana","json":"GHA"},{"name":"Guinea","json":"GIN"},{"name":"Gambia","json":"GMB"},{"name":"Guinea Bissau","json":"GNB"},{"name":"Equatorial Guinea","json":"GNQ"},{"name":"Greece","json":"GRC"},{"name":"Greenland","json":"GRL"},{"name":"Guatemala","json":"GTM"},{"name":"French Guiana","json":"GUF"},{"name":"Guyana","json":"GUY"},{"name":"Honduras","json":"HND"},{"name":"Croatia","json":"HRV"},{"name":"Haiti","json":"HTI"},{"name":"Hungary","json":"HUN"},{"name":"Indonesia","json":"IDN"},{"name":"India","json":"IND"},{"name":"Ireland","json":"IRL"},{"name":"Iran","json":"IRN"},{"name":"Iraq","json":"IRQ"},{"name":"Iceland","json":"ISL"},{"name":"Israel","json":"ISR"},{"name":"Italy","json":"ITA"},{"name":"Jamaica","json":"JAM"},{"name":"Jordan","json":"JOR"},{"name":"Japan","json":"JPN"},{"name":"Kazakhstan","json":"KAZ"},{"name":"Kenya","json":"KEN"},{"name":"Kyrgyzstan","json":"KGZ"},{"name":"Cambodia","json":"KHM"},{"name":"South Korea","json":"KOR"},{"name":"Kosovo","json":"CS-KM"},{"name":"Kuwait","json":"KWT"},{"name":"Laos","json":"LAO"},{"name":"Lebanon","json":"LBN"},{"name":"Liberia","json":"LBR"},{"name":"Libya","json":"LBY"},{"name":"Sri Lanka","json":"LKA"},{"name":"Lesotho","json":"LSO"},{"name":"Lithuania","json":"LTU"},{"name":"Luxembourg","json":"LUX"},{"name":"Latvia","json":"LVA"},{"name":"Morocco","json":"MAR"},{"name":"Moldova","json":"MDA"},{"name":"Madagascar","json":"MDG"},{"name":"Mexico","json":"MEX"},{"name":"Macedonia","json":"MKD"},{"name":"Mali","json":"MLI"},{"name":"Malta","json":"MLT"},{"name":"Myanmar","json":"MMR"},{"name":"Montenegro","json":"MNE"},{"name":"Mongolia","json":"MNG"},{"name":"Mozambique","json":"MOZ"},{"name":"Mauritania","json":"MRT"},{"name":"Malawi","json":"MWI"},{"name":"Malaysia","json":"MYS"},{"name":"Namibia","json":"NAM"},{"name":"New Caledonia","json":"NCL"},{"name":"Niger","json":"NER"},{"name":"Nigeria","json":"NGA"},{"name":"Nicaragua","json":"NIC"},{"name":"Netherlands","json":"NLD"},{"name":"Norway","json":"NOR"},{"name":"Nepal","json":"NPL"},{"name":"New Zealand","json":"NZL"},{"name":"Oman","json":"OMN"},{"name":"Pakistan","json":"PAK"},{"name":"Panama","json":"PAN"},{"name":"Peru","json":"PER"},{"name":"Philippines","json":"PHL"},{"name":"Papua New Guinea","json":"PNG"},{"name":"Poland","json":"POL"},{"name":"Puerto Rico","json":"PRI"},{"name":"North Korea","json":"PRK"},{"name":"Portugal","json":"PRT"},{"name":"Paraguay","json":"PRY"},{"name":"Qatar","json":"QAT"},{"name":"Romania","json":"ROU"},{"name":"Russia","json":"RUS"},{"name":"Rwanda","json":"RWA"},{"name":"Western Sahara","json":"ESH"},{"name":"Saudi Arabia","json":"SAU"},{"name":"Sudan","json":"SDN"},{"name":"South Sudan","json":"SSD"},{"name":"Senegal","json":"SEN"},{"name":"Solomon Islands","json":"SLB"},{"name":"Sierra Leone","json":"SLE"},{"name":"El Salvador","json":"SLV"},{"name":"Somaliland","json":"-99"},{"name":"Somalia","json":"SOM"},{"name":"Republic of Serbia","json":"SRB"},{"name":"Suriname","json":"SUR"},{"name":"Slovakia","json":"SVK"},{"name":"Slovenia","json":"SVN"},{"name":"Sweden","json":"SWE"},{"name":"Swaziland","json":"SWZ"},{"name":"Syria","json":"SYR"},{"name":"Chad","json":"TCD"},{"name":"Togo","json":"TGO"},{"name":"Thailand","json":"THA"},{"name":"Tajikistan","json":"TJK"},{"name":"Turkmenistan","json":"TKM"},{"name":"East Timor","json":"TLS"},{"name":"Trinidad and Tobago","json":"TTO"},{"name":"Tunisia","json":"TUN"},{"name":"Turkey","json":"TUR"},{"name":"Taiwan","json":"TWN"},{"name":"United Republic of Tanzania","json":"TZA"},{"name":"Uganda","json":"UGA"},{"name":"Ukraine","json":"UKR"},{"name":"Uruguay","json":"URY"},{"name":"United States of America","json":"USA"},{"name":"Uzbekistan","json":"UZB"},{"name":"Venezuela","json":"VEN"},{"name":"Vietnam","json":"VNM"},{"name":"Vanuatu","json":"VUT"},{"name":"West Bank","json":"PSE"},{"name":"Yemen","json":"YEM"},{"name":"South Africa","json":"ZAF"},{"name":"Zambia","json":"ZMB"},{"name":"Zimbabwe","json":"ZWE"}
-
-    ]
+  "array": [
+    { "name": "Afghanistan", "json": "AFG", "display": false, "num": 100 },
+    { "name": "Angola", "json": "AGO", "display": false, "num": 100 },
+    { "name": "Albania", "json": "ALB", "display": false, "num": 100 },
+    {
+      "name": "United Arab Emirates",
+      "json": "ARE",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Argentina", "json": "ARG", "display": false, "num": 100 },
+    { "name": "Armenia", "json": "ARM", "display": false, "num": 100 },
+    { "name": "Antarctica", "json": "ATA", "display": false, "num": 100 },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "json": "ATF",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Australia", "json": "AUS", "display": false, "num": 100 },
+    { "name": "Austria", "json": "AUT", "display": false, "num": 100 },
+    { "name": "Azerbaijan", "json": "AZE", "display": false, "num": 100 },
+    { "name": "Burundi", "json": "BDI", "display": false, "num": 100 },
+    { "name": "Belgium", "json": "BEL", "display": false, "num": 100 },
+    { "name": "Benin", "json": "BEN", "display": false, "num": 100 },
+    { "name": "Burkina Faso", "json": "BFA", "display": false, "num": 100 },
+    { "name": "Bangladesh", "json": "BGD", "display": false, "num": 100 },
+    { "name": "Bulgaria", "json": "BGR", "display": false, "num": 100 },
+    { "name": "The Bahamas", "json": "BHS", "display": false, "num": 100 },
+    {
+      "name": "Bosnia and Herzegovina",
+      "json": "BIH",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Belarus", "json": "BLR", "display": false, "num": 100 },
+    { "name": "Belize", "json": "BLZ", "display": false, "num": 100 },
+    { "name": "Bermuda", "json": "BMU", "display": false, "num": 100 },
+    { "name": "Bolivia", "json": "BOL", "display": false, "num": 100 },
+    { "name": "Brazil", "json": "BRA", "display": false, "num": 100 },
+    { "name": "Brunei", "json": "BRN", "display": false, "num": 100 },
+    { "name": "Bhutan", "json": "BTN", "display": false, "num": 100 },
+    { "name": "Botswana", "json": "BWA", "display": false, "num": 100 },
+    {
+      "name": "Central African Republic",
+      "json": "CAF",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Canada", "json": "CAN", "display": false, "num": 100 },
+    { "name": "Switzerland", "json": "CHE", "display": false, "num": 100 },
+    { "name": "Chile", "json": "CHL", "display": false, "num": 100 },
+    {
+      "name": "China",
+      "json": "CHN",
+      "display": false,
+      "num": 100,
+      "data": [
+        {
+          "name": "浙江省",
+          "value": [1220],
+          "center": [120.41015624999999, 28.92163128242129]
+        },
+        {
+          "name": "江苏省",
+          "value": [2000],
+          "center": [120.234375, 33.21111647241685]
+        },
+        {
+          "name": "北京市",
+          "value": [12000],
+          "center": [116.45507812500001, 39.842286020743394]
+        },
+        {
+          "name": "新疆维吾尔自治区",
+          "value": [120],
+          "center": [85.60546875, 40.245991504199026]
+        },
+        {
+          "name": "西藏自治区",
+          "value": [30],
+          "center": [87.1875, 31.27855085894653]
+        },
+        {
+          "name": "海南省",
+          "value": [90],
+          "center": [109.3359375, 19.145168196205297]
+        },
+        {
+          "name": "上海市",
+          "value": [990],
+          "center": [121.55273437499999, 31.27855085894653]
+        },
+        {
+          "name": "四川省",
+          "value": [520],
+          "center": [104.0625, 30.675715404167743]
+        },
+        {
+          "name": "湖北省",
+          "value": [520],
+          "center": [113.02734374999999, 30.826780904779774]
+        },
+        {
+          "name": "湖南省",
+          "value": [410],
+          "center": [111.357421875, 28.07198030177986]
+        },
+        {
+          "name": "河南省",
+          "value": [320],
+          "center": [113.73046875, 33.94335994657882]
+        },
+        {
+          "name": "河北省",
+          "value": [220],
+          "center": [115.13671875, 37.71859032558816]
+        },
+        {
+          "name": "贵州省",
+          "value": [149],
+          "center": [106.61132812499999, 26.745610382199022]
+        },
+        {
+          "name": "江西省",
+          "value": [220],
+          "center": [115.6640625, 27.527758206861886]
+        },
+        {
+          "name": "山东省",
+          "value": [620],
+          "center": [118.38867187500001, 36.31512514748051]
+        },
+        {
+          "name": "广西壮族自治区",
+          "value": [320],
+          "center": [108.28125, 22.755920681486405]
+        },
+        {
+          "name": "广东省",
+          "value": [420],
+          "center": [113.73046875, 23.885837699862005]
+        },
+        {
+          "name": "黑龙江省",
+          "value": [370],
+          "center": [126.298828125, 47.27922900257082]
+        },
+        {
+          "name": "吉林省",
+          "value": [420],
+          "center": [126.73828125, 43.26120612479979]
+        },
+        {
+          "name": "辽宁省",
+          "value": [420],
+          "center": [123.3984375, 41.57436130598913]
+        },
+        {
+          "name": "福建省",
+          "value": [280],
+          "center": [117.7734375, 26.03704188651584]
+        },
+        {
+          "name": "安徽省",
+          "value": [320],
+          "center": [116.806640625, 31.353636941500987]
+        },
+        {
+          "name": "陕西省",
+          "value": [700],
+          "center": [110.12695312499999, 35.460669951495305]
+        },
+        {
+          "name": "内蒙古自治区",
+          "value": [100],
+          "center": [111.796875, 40.64730356252251]
+        },
+        {
+          "name": "青海省",
+          "value": [100],
+          "center": [95.00976562499999, 35.67514743608467]
+        },
+        {
+          "name": "台湾省",
+          "value": [500],
+          "center": [101.865234375, 24.686952411999155]
+        },
+        {
+          "name": "云南省",
+          "value": [200],
+          "center": [101.865234375, 24.686952411999155]
+        },
+        {
+          "name": "甘肃省",
+          "value": [100],
+          "center": [101.513671875, 37.50972584293751]
+        },
+        {
+          "name": "山西省",
+          "value": [200],
+          "center": [112.587890625, 37.84015683604136]
+        },
+        {
+          "name": "宁夏回族自治区",
+          "value": [200],
+          "center": [105.8203125, 36.98500309285596]
+        },
+        {
+          "name": "天津市",
+          "value": [200],
+          "center": [117.18017578125, 39.11301365149975]
+        },
+        {
+          "name": "重庆市",
+          "value": [200],
+          "center": [106.5234375, 29.554345125748267]
+        }
+      ]
+    },
+    { "name": "Ivory Coast", "json": "CIV", "display": false, "num": 100 },
+    { "name": "Cameroon", "json": "CMR", "display": false, "num": 100 },
+    {
+      "name": "Democratic Republic of the Congo",
+      "json": "COD",
+      "display": false,
+      "num": 100
+    },
+    {
+      "name": "Republic of the Congo",
+      "json": "COG",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Colombia", "json": "COL", "display": false, "num": 100 },
+    { "name": "Costa Rica", "json": "CRI", "display": false, "num": 100 },
+    { "name": "Cuba", "json": "CUB", "display": false, "num": 100 },
+    { "name": "Northern Cyprus", "json": "-99", "display": false, "num": 100 },
+    { "name": "Cyprus", "json": "CYP", "display": false, "num": 100 },
+    { "name": "Czech Republic", "json": "CZE", "display": false, "num": 100 },
+    { "name": "Germany", "json": "DEU", "display": false, "num": 100 },
+    { "name": "Djibouti", "json": "DJI", "display": false, "num": 100 },
+    { "name": "Denmark", "json": "DNK", "display": false, "num": 100 },
+    {
+      "name": "Dominican Republic",
+      "json": "DOM",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Algeria", "json": "DZA", "display": false, "num": 100 },
+    { "name": "Ecuador", "json": "ECU", "display": false, "num": 100 },
+    { "name": "Egypt", "json": "EGY", "display": false, "num": 100 },
+    { "name": "Eritrea", "json": "ERI", "display": false, "num": 100 },
+    { "name": "Spain", "json": "ESP", "display": false, "num": 100 },
+    { "name": "Estonia", "json": "EST", "display": false, "num": 100 },
+    { "name": "Ethiopia", "json": "ETH", "display": false, "num": 100 },
+    { "name": "Finland", "json": "FIN", "display": false, "num": 100 },
+    { "name": "Fiji", "json": "FJI", "display": false, "num": 100 },
+    { "name": "Falkland Islands", "json": "FLK", "display": false, "num": 100 },
+    { "name": "France", "json": "FRA", "display": false, "num": 100 },
+    { "name": "Gabon", "json": "GAB", "display": false, "num": 100 },
+    { "name": "United Kingdom", "json": "GBR", "display": false, "num": 100 },
+    { "name": "Georgia", "json": "GEO", "display": false, "num": 100 },
+    { "name": "Ghana", "json": "GHA", "display": false, "num": 100 },
+    { "name": "Guinea", "json": "GIN", "display": false, "num": 100 },
+    { "name": "Gambia", "json": "GMB", "display": false, "num": 100 },
+    { "name": "Guinea Bissau", "json": "GNB", "display": false, "num": 100 },
+    {
+      "name": "Equatorial Guinea",
+      "json": "GNQ",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Greece", "json": "GRC", "display": false, "num": 100 },
+    { "name": "Greenland", "json": "GRL", "display": false, "num": 100 },
+    { "name": "Guatemala", "json": "GTM", "display": false, "num": 100 },
+    { "name": "French Guiana", "json": "GUF", "display": false, "num": 100 },
+    { "name": "Guyana", "json": "GUY", "display": false, "num": 100 },
+    { "name": "Honduras", "json": "HND", "display": false, "num": 100 },
+    { "name": "Croatia", "json": "HRV", "display": false, "num": 100 },
+    { "name": "Haiti", "json": "HTI", "display": false, "num": 100 },
+    { "name": "Hungary", "json": "HUN", "display": false, "num": 100 },
+    { "name": "Indonesia", "json": "IDN", "display": false, "num": 100 },
+    { "name": "India", "json": "IND", "display": false, "num": 100 },
+    { "name": "Ireland", "json": "IRL", "display": false, "num": 100 },
+    { "name": "Iran", "json": "IRN", "display": false, "num": 100 },
+    { "name": "Iraq", "json": "IRQ", "display": false, "num": 100 },
+    { "name": "Iceland", "json": "ISL", "display": false, "num": 100 },
+    { "name": "Israel", "json": "ISR", "display": false, "num": 100 },
+    { "name": "Italy", "json": "ITA", "display": false, "num": 100 },
+    { "name": "Jamaica", "json": "JAM", "display": false, "num": 100 },
+    { "name": "Jordan", "json": "JOR", "display": false, "num": 100 },
+    { "name": "Japan", "json": "JPN", "display": false, "num": 100 },
+    { "name": "Kazakhstan", "json": "KAZ", "display": false, "num": 100 },
+    { "name": "Kenya", "json": "KEN", "display": false, "num": 100 },
+    { "name": "Kyrgyzstan", "json": "KGZ", "display": false, "num": 100 },
+    { "name": "Cambodia", "json": "KHM", "display": false, "num": 100 },
+    { "name": "South Korea", "json": "KOR", "display": false, "num": 100 },
+    { "name": "Kosovo", "json": "CS-KM", "display": false, "num": 100 },
+    { "name": "Kuwait", "json": "KWT", "display": false, "num": 100 },
+    { "name": "Laos", "json": "LAO", "display": false, "num": 100 },
+    { "name": "Lebanon", "json": "LBN", "display": false, "num": 100 },
+    { "name": "Liberia", "json": "LBR", "display": false, "num": 100 },
+    { "name": "Libya", "json": "LBY", "display": false, "num": 100 },
+    { "name": "Sri Lanka", "json": "LKA", "display": false, "num": 100 },
+    { "name": "Lesotho", "json": "LSO", "display": false, "num": 100 },
+    { "name": "Lithuania", "json": "LTU", "display": false, "num": 100 },
+    { "name": "Luxembourg", "json": "LUX", "display": false, "num": 100 },
+    { "name": "Latvia", "json": "LVA", "display": false, "num": 100 },
+    { "name": "Morocco", "json": "MAR", "display": false, "num": 100 },
+    { "name": "Moldova", "json": "MDA", "display": false, "num": 100 },
+    { "name": "Madagascar", "json": "MDG", "display": false, "num": 100 },
+    { "name": "Mexico", "json": "MEX", "display": false, "num": 100 },
+    { "name": "Macedonia", "json": "MKD", "display": false, "num": 100 },
+    { "name": "Mali", "json": "MLI", "display": false, "num": 100 },
+    { "name": "Malta", "json": "MLT", "display": false, "num": 100 },
+    { "name": "Myanmar", "json": "MMR", "display": false, "num": 100 },
+    { "name": "Montenegro", "json": "MNE", "display": false, "num": 100 },
+    { "name": "Mongolia", "json": "MNG", "display": false, "num": 100 },
+    { "name": "Mozambique", "json": "MOZ", "display": false, "num": 100 },
+    { "name": "Mauritania", "json": "MRT", "display": false, "num": 100 },
+    { "name": "Malawi", "json": "MWI", "display": false, "num": 100 },
+    { "name": "Malaysia", "json": "MYS", "display": false, "num": 100 },
+    { "name": "Namibia", "json": "NAM", "display": false, "num": 100 },
+    { "name": "New Caledonia", "json": "NCL", "display": false, "num": 100 },
+    { "name": "Niger", "json": "NER", "display": false, "num": 100 },
+    { "name": "Nigeria", "json": "NGA", "display": false, "num": 100 },
+    { "name": "Nicaragua", "json": "NIC", "display": false, "num": 100 },
+    { "name": "Netherlands", "json": "NLD", "display": false, "num": 100 },
+    { "name": "Norway", "json": "NOR", "display": false, "num": 100 },
+    { "name": "Nepal", "json": "NPL", "display": false, "num": 100 },
+    { "name": "New Zealand", "json": "NZL", "display": false, "num": 100 },
+    { "name": "Oman", "json": "OMN", "display": false, "num": 100 },
+    { "name": "Pakistan", "json": "PAK", "display": false, "num": 100 },
+    { "name": "Panama", "json": "PAN", "display": false, "num": 100 },
+    { "name": "Peru", "json": "PER", "display": false, "num": 100 },
+    { "name": "Philippines", "json": "PHL", "display": false, "num": 100 },
+    { "name": "Papua New Guinea", "json": "PNG", "display": false, "num": 100 },
+    { "name": "Poland", "json": "POL", "display": false, "num": 100 },
+    { "name": "Puerto Rico", "json": "PRI", "display": false, "num": 100 },
+    { "name": "North Korea", "json": "PRK", "display": false, "num": 100 },
+    { "name": "Portugal", "json": "PRT", "display": false, "num": 100 },
+    { "name": "Paraguay", "json": "PRY", "display": false, "num": 100 },
+    { "name": "Qatar", "json": "QAT", "display": false, "num": 100 },
+    { "name": "Romania", "json": "ROU", "display": false, "num": 100 },
+    { "name": "Russia", "json": "RUS", "display": false, "num": 100 },
+    { "name": "Rwanda", "json": "RWA", "display": false, "num": 100 },
+    { "name": "Western Sahara", "json": "ESH", "display": false, "num": 100 },
+    { "name": "Saudi Arabia", "json": "SAU", "display": false, "num": 100 },
+    { "name": "Sudan", "json": "SDN", "display": false, "num": 100 },
+    { "name": "South Sudan", "json": "SSD", "display": false, "num": 100 },
+    { "name": "Senegal", "json": "SEN", "display": false, "num": 100 },
+    { "name": "Solomon Islands", "json": "SLB", "display": false, "num": 100 },
+    { "name": "Sierra Leone", "json": "SLE", "display": false, "num": 100 },
+    { "name": "El Salvador", "json": "SLV", "display": false, "num": 100 },
+    { "name": "Somaliland", "json": "-99", "display": false, "num": 100 },
+    { "name": "Somalia", "json": "SOM", "display": false, "num": 100 },
+    {
+      "name": "Republic of Serbia",
+      "json": "SRB",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Suriname", "json": "SUR", "display": false, "num": 100 },
+    { "name": "Slovakia", "json": "SVK", "display": false, "num": 100 },
+    { "name": "Slovenia", "json": "SVN", "display": false, "num": 100 },
+    { "name": "Sweden", "json": "SWE", "display": false, "num": 100 },
+    { "name": "Swaziland", "json": "SWZ", "display": false, "num": 100 },
+    { "name": "Syria", "json": "SYR", "display": false, "num": 100 },
+    { "name": "Chad", "json": "TCD", "display": false, "num": 100 },
+    { "name": "Togo", "json": "TGO", "display": false, "num": 100 },
+    { "name": "Thailand", "json": "THA", "display": false, "num": 100 },
+    { "name": "Tajikistan", "json": "TJK", "display": false, "num": 100 },
+    { "name": "Turkmenistan", "json": "TKM", "display": false, "num": 100 },
+    { "name": "East Timor", "json": "TLS", "display": false, "num": 100 },
+    {
+      "name": "Trinidad and Tobago",
+      "json": "TTO",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Tunisia", "json": "TUN", "display": false, "num": 100 },
+    { "name": "Turkey", "json": "TUR", "display": false, "num": 100 },
+    { "name": "Taiwan", "json": "TWN", "display": false, "num": 100 },
+    {
+      "name": "United Republic of Tanzania",
+      "json": "TZA",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Uganda", "json": "UGA", "display": false, "num": 100 },
+    { "name": "Ukraine", "json": "UKR", "display": false, "num": 100 },
+    { "name": "Uruguay", "json": "URY", "display": false, "num": 100 },
+    {
+      "name": "United States",
+      "json": "USA",
+      "display": false,
+      "num": 100
+    },
+    { "name": "Uzbekistan", "json": "UZB", "display": false, "num": 100 },
+    { "name": "Venezuela", "json": "VEN", "display": false, "num": 100 },
+    { "name": "Vietnam", "json": "VNM", "display": false, "num": 100 },
+    { "name": "Vanuatu", "json": "VUT", "display": false, "num": 100 },
+    { "name": "West Bank", "json": "PSE", "display": false, "num": 100 },
+    { "name": "Yemen", "json": "YEM", "display": false, "num": 100 },
+    { "name": "South Africa", "json": "ZAF", "display": false, "num": 100 },
+    { "name": "Zambia", "json": "ZMB", "display": false, "num": 100 },
+    { "name": "Zimbabwe", "json": "ZWE", "display": false, "num": 100 }
+  ]
 }
